@@ -6,9 +6,9 @@ import Color from "./sidebar/colors/Colors.js";
 function App() {
   return (
     <>
-    <Products/>
-
+    <Navigation/>
     <Color/>
+    <Products/>
     </>
     
     );
