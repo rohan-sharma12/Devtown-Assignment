@@ -9,7 +9,7 @@ function Sidebar() {
     <>
     <section className="sidebar">
     <div className=".logo-container">
-      <h1><AiOutlineShoppingCart/></h1>
+      <h1 className="logo">Rohan.<AiOutlineShoppingCart/></h1>
     </div>
 
     <Category/>

@@ -12,6 +12,14 @@ function Products() {
       <Card/>
       <Card/>
       <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
       </section>
 
   )
