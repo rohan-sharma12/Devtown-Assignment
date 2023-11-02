@@ -1,13 +1,14 @@
-
 import Navigation from "./navigation/Nav";
 import Products from "./products/Products";
-import Color from "./sidebar/colors/Colors.js";
+import Recommended from "./recommended/Recommended.js";
+import Sidebar from "./sidebar/Sidebar.js"
 
 function App() {
   return (
     <>
+    <Sidebar/>
     <Navigation/>
-    <Color/>
+    <Recommended/>
     <Products/>
     </>
     
