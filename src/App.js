@@ -67,8 +67,16 @@ function App() {
     );
   }
 
-  
   const result = filteredData(products, selectedCategory, query);
-}
-export default App;
 
+  return (
+    <>
+      <Sidebar handleChange={handleChange} />
+      <Navigation query={query} handleInputChange={handleInputChange} />
+      <Recommended handleClick={handleClick} />
+      <Products result={result} />
+    </>
+  );
+}
+
+export default App;
