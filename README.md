@@ -38,12 +38,12 @@ This is a responsive and interactive web page that displays a list of products. 
 
 4. **Start the development server:**
     ```bash
-  npm start
+   npm start
 
 5. **Open your browser and go to http://localhost:3000 to see the application in action.**
 
 ## Folder Structure
-- **src/:** Contains the source code of the project.
+  - **src/:** Contains the source code of the project.
   - **components/:** Includes React components used in the application.
   - **db/:** Contains sample product data.
   - **App.js:** The main React component that renders the application.
