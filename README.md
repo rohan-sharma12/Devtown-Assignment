@@ -37,7 +37,7 @@ This is a responsive and interactive web page that displays a list of products. 
    npm install
 
 4. **Start the development server:**
-  ```bash
+    ```bash
   npm start
 
 5. **Open your browser and go to http://localhost:3000 to see the application in action.**
