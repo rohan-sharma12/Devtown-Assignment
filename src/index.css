@@ -1,16 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(97,97,97);
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
 

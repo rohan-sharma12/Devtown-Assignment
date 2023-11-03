@@ -1,35 +1,65 @@
-import "./Nav.css"
-import {FiHeart} from "react-icons/fi"
-import {AiOutlineShoppingCart, AiOutlineUserAdd} from "react-icons/ai"
+import React from 'react';
+import styled from 'styled-components';
+import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai';
+import { FiHeart } from 'react-icons/fi';
 
-function Nav() {
+// Styled components
+const StyledNav = styled.nav`
+  display: flex;
+  border-bottom: 2px solid #f3f3f3;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+  margin-left: 2rem;
+  color: black;
+`;
+
+const SearchInput = styled.input`
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+`;
+
+const IconWrapper = styled.div`
+  .nav-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+  }
+`;
+
+// Nav component
+const Nav = ({ handleInputChange, query }) => {
   return (
-    <nav>
-      <div classsName="nav-container">
-        <input
-         className="search-item" 
-         type="text"
-         placeholder="Enter your search shoes"
-         />
+    <StyledNav>
+      <div>
+        <SearchInput
+          className="search-input"
+          type="text"
+          onChange={handleInputChange}
+          value={query}
+          placeholder="Enter your search shoes."
+        />
       </div>
-
-      <div className="profile-conatiner">
+      <IconWrapper>
         <a href="#">
-          <FiHeart className="nav-icons"/>
+          <FiHeart className="nav-icons" />
         </a>
-
         <a href="#">
-            <AiOutlineShoppingCart className="nav-icons"/>
+          <AiOutlineShoppingCart className="nav-icons" />
         </a>
-          <AiOutlineUserAdd className="nav-icons"/>
         <a href="#">
-
-</a>
-        
-      </div>
-    </nav>
-  )
-}
-
+          <AiOutlineUserAdd className="nav-icons" />
+        </a>
+      </IconWrapper>
+    </StyledNav>
+  );
+};
 
 export default Nav;

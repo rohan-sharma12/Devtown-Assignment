@@ -1,15 +1,17 @@
 
 import Navigation from "./navigation/Nav";
+import Recommended from "./recommended/Recommended";
 import Products from "./products/Products";
 import products from "./db/data";
-import Recommended from "./recommended/Recommended";
-import Sidebar from "./sidebar/Sidebar";
 import Card from "./components/Card";
+import Sidebar from "./sidebar/Sidebar";
 import { useState } from "react";
 import "./index.css";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
+
+  
 
   // ----------- Input Filter -----------
   const [query, setQuery] = useState("");
