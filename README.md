@@ -23,7 +23,7 @@ This is a responsive and interactive web page that displays a list of products. 
 ## Getting Started
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/product-catalog.git
+   git clone https://github.com/rohan-sharma12/Devtown-Assignment
 
 
 2. **Change into the project directory:**
