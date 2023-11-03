@@ -8,7 +8,7 @@ This is a responsive and interactive web page that displays a list of products. 
 - **Filtering:** Users can filter the products based on the following attributes:
   - Type
   - Color
-  - Price range
+  - Price Range
   - Brand
 
 - **Sorting:** Users can sort the products based on price and other attributes.
@@ -17,8 +17,6 @@ This is a responsive and interactive web page that displays a list of products. 
 
 ## Technologies Used
 - **React.js:** This project is built using the React.js library for building user interfaces.
-
-- **React Router:** Used for handling routing and navigation within the application.
 
 - **CSS:** The styling is done using CSS for a responsive and visually appealing design.
 
