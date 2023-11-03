@@ -28,33 +28,24 @@ This is a responsive and interactive web page that displays a list of products. 
    git clone https://github.com/yourusername/product-catalog.git
 
 
+2. **Change into the project directory:**
+   ```bash
+   cd Devtown-Assignment
 
-git clone https://github.com/yourusername/product-catalog.git
-Change into the project directory:
+3. **Install dependencies:**
+   ```bash
+   npm install
 
+4. **Start the development server:**
+  ```bash
+  npm start
 
-cd product-catalog
-Install dependencies:
+5. **Open your browser and go to http://localhost:3000 to see the application in action.**
 
+## Folder Structure
+- **src/:** Contains the source code of the project.
+  - **components/:** Includes React components used in the application.
+  - **db/:** Contains sample product data.
+  - **App.js:** The main React component that renders the application.
+  - **index.js:** The entry point for the application.
 
-
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-Open your browser and go to http://localhost:3000 to see the application in action.
-
-Usage
-Browse the list of products on the homepage.
-Use the filter options in the sidebar to narrow down products based on type, color, price, and brand.
-Click on the sorting options to change the order of the products.
-Use the search bar to find specific products by name.
-Folder Structure
-src/: Contains the source code of the project.
-components/: Includes React components used in the application.
-data/: Contains sample product data.
-styles/: Includes CSS files for styling.
-App.js: The main React component that renders the application.
-index.js: The entry point for the application.
